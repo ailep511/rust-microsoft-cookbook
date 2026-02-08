@@ -1,5 +1,5 @@
 # Use Python 3.9 as the base image (compatible with PyIceberg)
-FROM python:3.9-slim
+FROM python:3.14.3-slim
 
 # Set working directory
 WORKDIR /app
